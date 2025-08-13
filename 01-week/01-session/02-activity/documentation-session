@@ -1,0 +1,71 @@
+# Documentación Sesión 1
+
+## Resumen general
+
+En esta sesión se trataron temas esenciales para la gestión del código en entornos colaborativos, con el objetivo de mantener un flujo de trabajo ordenado, trazable y seguro.
+
+---
+
+## 1️ Documentación del trabajo realizado
+
+Se destacó la importancia de registrar cada paso y resultado obtenido durante el desarrollo.
+Esto asegura la trazabilidad de los cambios y facilita la revisión del historial en el repositorio.
+
+---
+
+## 2️ Ambientes de trabajo
+
+Se definió la función de cada ambiente en el ciclo de desarrollo:
+
+* **dev** → Desarrollo
+* **qa** → Pruebas y control de calidad
+* **staging** → Preproducción
+* **main** → Producción (rama estable)
+* **project** → Integración temporal de proyectos
+
+---
+
+## 3️ Merge Requests (MR)
+
+Se explicó que un MR (o Pull Request) es la solicitud para fusionar cambios de una rama a otra.
+
+* El título debe incluir el identificador de la historia de usuario (`HU-xxxx`) y una breve descripción.
+  **Ejemplo**: `[HU-19630] optimize taxpayer endpoint`
+* El cuerpo debe contener un **checklist** para validar las tareas completadas.
+
+---
+
+## 4️ Tipos de Merge Request
+
+Clasificaciones utilizadas también para nombrar ramas:
+
+* **feature** → Nuevas funcionalidades
+* **bugfix** → Corrección de errores
+* **hotfix** → Correcciones urgentes en producción
+* **refactor** → Mejoras internas sin cambiar el comportamiento
+* **chore** → Mantenimiento y gestión de dependencias
+* **spike** → Investigaciones o pruebas rápidas
+
+---
+
+## 5️ Roles y seguridad
+
+Se revisaron las prácticas para un trabajo colaborativo seguro:
+
+* Crear una rama por cada historia de usuario
+* Hacer `rebase` frecuente sobre `main` o `qa` para prevenir conflictos
+* Cerrar la rama una vez aprobado y fusionado el MR
+* Aplicar revisiones y control de cambios según permisos y roles
+
+---
+
+## 6️ Actividades asignadas
+
+* Elaborar un README personal
+* Documentar el proceso de la sesión 1
+* Graficar el flujo de MR entre ambientes
+* Realizar la práctica de paso de MR y registrar evidencias de commits
+* Preparar material de socialización para el jueves 14
+
+---
+
