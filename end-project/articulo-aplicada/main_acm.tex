@@ -1,0 +1,39 @@
+\documentclass[sigconf,nonacm]{acmart}
+
+\input{includes/preamble_common}
+\input{includes/preamble_acm}
+
+\AtBeginDocument{\providecommand\BibTeX{{\sc Bib}\TeX}}
+
+\title[Sistema de Gestión de Talento Humano]{Sistema de Gestión de Talento Humano para la Empresa Las Brisas}
+
+\author{Valentina Cruz Rivera}
+\affiliation{%
+  \institution{SENA}
+  \city{Neiva}
+  \country{Colombia}}
+\email{valentina.cruz26@soy.sena.edu.co}
+
+
+\begin{abstract}
+\input{sections/00_abstract}
+\end{abstract}
+
+\keywords{Gestión de Talento Humano, Ingeniería de Requisitos, Arquitectura de Software, Usabilidad, Seguridad, Gobierno de Datos, ROI}
+
+\begin{document}
+\maketitle
+
+\input{sections/01_introduccion}
+\input{sections/02_relacionados}
+\input{sections/03_metodologia}
+\input{sections/04_implementacion}
+\input{sections/05_resultados}
+\input{sections/06_discusion}
+\input{sections/07_conclusiones}
+\input{sections/A1_apendices}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bibliography/references}
+
+\end{document}

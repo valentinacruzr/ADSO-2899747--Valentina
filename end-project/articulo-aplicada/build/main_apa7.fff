@@ -1,0 +1,28 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/problemasgestionmanual.jpg}
+    \caption{Problemas en la gestión manual}
+    \label{fig:problemas}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/procesosmanualesvsautomatizados.jpg}
+    \caption{Procesos manuales vs automatizados}
+    \label{fig:procesos}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{graphics/mejoraspostimplementacion.jpg}
+    \caption{Mejoras post implementación}
+    \label{fig:mejoras}
+\end{figure*}

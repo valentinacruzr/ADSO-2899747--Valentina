@@ -1,0 +1,18 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[htbp]
+\centering
+\caption{Indicadores clave (KPIs)}
+\label{tab:kpis}
+\begin{tabular}{lccc}
+\toprule
+\textbf{KPI} & \textbf{Definición} & \textbf{Meta} & \textbf{Fuente} \\
+\midrule
+Tiempo de ciclo & Días promedio por trámite & -40\% a -60\% & Logs y reportes \\
+Tasa de error & Errores por 100 operaciones & -30\% a -50\% & Validaciones y auditoría \\
+Disponibilidad & \% mensual de uptime & ≥ 99,9\% & Monitoreo \\
+Adopción & Usuarios activos/objetivo & ≥ 80\% en 8 meses & Analítica de uso \\
+Satisfacción & Encuesta (1–5) & ≥ 4/5 & Encuestas internas \\
+\bottomrule
+\end{tabular}
+\end{table*}

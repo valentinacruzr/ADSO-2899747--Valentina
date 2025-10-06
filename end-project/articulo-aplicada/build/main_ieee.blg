@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'build/main_ieee.blg'
+[386] biber-MSWIN64:340> INFO - === 
+[537] Biber.pm:419> INFO - Reading 'build/main_ieee.bcf'
+[894] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[937] bbl.pm:660> INFO - Writing 'build/main_ieee.bbl' with encoding 'UTF-8'
+[938] bbl.pm:763> INFO - Output to build/main_ieee.bbl
+[938] Biber.pm:131> WARN - The file 'build/main_ieee.bcf' does not contain any citations!
+[938] Biber.pm:133> INFO - WARNINGS: 1
